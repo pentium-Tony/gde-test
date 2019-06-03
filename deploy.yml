@@ -1,0 +1,8 @@
+deployment:
+  k8s:
+  
+    - module: platform.web.api.gateway
+      
+      image: router
+      tag: 1.0.0
+      stage: jhow-gde
