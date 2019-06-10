@@ -3,6 +3,6 @@ deployment:
   
     - module: platform.web.api.gateway
       
-      image: router
-      tag: 1.0.0
+      image: dockerhub.pentium.network/gde/router
+      tag: 1.2.0
       stage: jhow-gde
